@@ -3,6 +3,7 @@ void main()
 {
    int num;
    printf("enter the intervals");
+    scanf("%d%d",&m,&n);
    printf("Print Odd Numbers in a given range m to n:\n");
    for (num = m; num <= n; num++)
    {
