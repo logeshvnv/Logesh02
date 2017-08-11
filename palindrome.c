@@ -11,5 +11,9 @@ int main()
       reverse_num=reverse_num*10+remainder;
       temp/=10;
    } 
+   if(num==reverse_num){
+    printf("num is palindrome");}
+   else{
+    printf("num is not palindrome");}
    return 0;
    }
